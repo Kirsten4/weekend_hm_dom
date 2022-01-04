@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Munro List</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+        <script src="js/app.js"></script>
+    </head>
+    <body>
+        <form id="new-list-item">
+            <div class="form-item">
+                <label for="name">Name of Munro</label>
+                <input type="text" id="name" required/>
+            </div>
+            <div class="form-item">
+                <label for="date">Date Climbed</label>
+                <input type="date" id="date" required/>
+            </div>
+            <input type="submit" value="save">
+        </form>
+
+        <button id="delete-all">Delete All</button>
+
+        <h1>Munros Climbed</h1>
+        <ul id="munro-list"></ul>
+    </body>
+</html>
